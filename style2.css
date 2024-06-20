@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.main-container {
+    padding: 2em 0;
+}
+
+.intro {
+    margin-bottom: 2em;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+    margin-top: 1em;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+.cta {
+    margin-top: 1em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.gallery img {
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer .social-links a {
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+#about {
+    padding: 60px 0;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about .about-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#about .about-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#about .about-content h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#about .about-content p,
+#about .about-content ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+#about .about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about .about-content ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#about .about-content ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 20px;
+}
+
+#about .about-content address {
+    font-style: normal;
+    color: #555555;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+#about .about-content strong {
+    color: #007bff;
+}
